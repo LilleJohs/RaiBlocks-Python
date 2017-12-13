@@ -3,10 +3,8 @@ from raiMain import *
 
 payload = {'limit': '2000'}
 r = requests.get('https://raiblocks.net/page/frontiers.php', payload)
-#print(r.text)
-text = r.text
 
-stringList = text.split('https://raiblocks.net/account/index.php?acc=')
+stringList = r.text.split('https://raiblocks.net/account/index.php?acc=')
 raiAcc = []
 for i in range(1, len(stringList)):
 	print(stringList[i][0:64])
