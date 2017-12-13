@@ -11,3 +11,7 @@ How to use:
 
 - Make sure your config.json in C:\Users\YOURUSERNAME\AppData\Local\RaiBlocksfile has correct port and that
 "rpc_enabled" is true.
+
+Example:
+
+-raiRichList.py gives the accumulated percentage of the richlist found at https://raiblocks.net/page/frontiers.php
