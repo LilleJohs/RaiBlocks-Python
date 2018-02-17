@@ -15,4 +15,4 @@ How to use:
 Example:
 
 - raiRichList.py gives the accumulated percentage of the richlist found at https://raiblocks.net/page/frontiers.php
-- detective.py gives a list of all transactions that has received a 100 000 NANO deposit or more from one of Bitgrail's two addresses
+- detective.py gives a list of all accounts that has received a 100 000 NANO transaction or more from one of Bitgrail's two addresses
